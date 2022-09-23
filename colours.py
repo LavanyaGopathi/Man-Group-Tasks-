@@ -29,8 +29,6 @@ with open("//Users/Lavanya/Desktop/Man Assesments/colours.txt", "r") as colorsFi
             fewestCount = numberCount
             fewestColor = colorsList[i]
 
-            list1 = "A,B,C".split(",")
-
         colList = colorsList[i].split(",")
         if "GREEN" in colList and "BLUE" not in colList:
             greenButNotBlueCount += 1
